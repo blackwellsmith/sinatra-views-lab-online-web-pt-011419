@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <% time =  %>
-    <h1><%= "The date is #{time.wday}, #{time.month} #{time.day}, #{time.year}" %></h1>
+    <% time = Date.today.strftime("%A, %B %d, %Y") %>
+    <h1><%= "The date is " + time %></h1>
     
   </body>
 </html>
